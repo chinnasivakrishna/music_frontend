@@ -1,0 +1,48 @@
+.nav{
+  display: flex;
+}
+
+.img{
+  height: 8vh;
+}
+
+.logo{
+  display: flex;
+  
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.main{
+  margin-top: -18px;
+  width: 97vw;
+  margin-left: -20px;
+
+}
+
+.download-button {
+  margin-bottom: 500px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #9c5f05;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-left: -90px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #ff8400;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.upload{
+  width: 20vw;
+}

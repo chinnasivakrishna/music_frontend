@@ -1,0 +1,71 @@
+.songs-container {
+    width: 97vw;
+    min-height: 94vh;
+    height: 100%;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .search-input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .song-group {
+    margin-bottom: 20px;
+  }
+  
+  .song-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .song-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song-item h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+
+    color: #555;
+  }
+  
+  audio {
+    margin-top: 5px;
+    width: 60%;
+    border-radius: 5px;
+  }
+  
+  .add-to-favorites {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-favorites:hover {
+    background-color: #e84348;
+  }
+  
